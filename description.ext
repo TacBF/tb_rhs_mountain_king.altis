@@ -1,0 +1,14 @@
+#define TB_loadingScreen_imagePath "tb_loadingScreen.jpg"
+//#define TB_loadingScreen_imagePath "\a3\ui_f\data\Logos\arma3_expansion_ca.paa"
+
+onLoadName="Mountain King";
+author="Leon (TacBF Team)";
+onLoadMission="Attack and Defend [M-50]. Central mountain top. Insurgents (attacking) = light vehicles, ZUs, randomized TRPs. -vs- US (defending) = Light vehicles, helicopters, attack heli, jet, UAVs. 1 pre-placed FO.";
+
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+
+#include "tb_mountedWeapons.hpp"
+#include "tb_vehicleInit.hpp"
